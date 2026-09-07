@@ -1,4 +1,4 @@
-const API = "http://localhost:8080";
+const API = "https://codsoft-taskno1.onrender.com";
 
 let attempts = 0;
 
