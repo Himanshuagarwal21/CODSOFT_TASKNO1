@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.game-container {
+    width: 450px;
+    background: white;
+
+    padding: 40px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+#startBtn {
+    width: 100%;
+
+    padding: 13px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #667eea;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#startBtn:hover {
+    background: #5568d8;
+}
+
+.game-box {
+    margin-top: 30px;
+
+    padding: 25px;
+
+    background: #f5f6fa;
+
+    border-radius: 15px;
+}
+
+label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #333;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+
+    padding: 13px;
+
+    border: 2px solid #ddd;
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #667eea;
+}
+
+.input-area button {
+    padding: 13px 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #764ba2;
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.input-area button:hover {
+    background: #633d87;
+}
+
+#result {
+    margin-top: 25px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    color: #333;
+}
+
+.attempts {
+    margin-top: 15px;
+
+    color: #666;
+}
+
+#attempts {
+    font-weight: bold;
+    color: #333;
+}
